@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-	return("Hello {}!".format(username))
+	return("Hello !"))
 @app.route('/predict', methods=['POST'])
 def predict():
 	try:
